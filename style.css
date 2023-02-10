@@ -1,6 +1,6 @@
 body {
     font-family: "cartograph-cf", monospace;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     color: white;
 
@@ -17,6 +17,10 @@ h3 {
     font-style: italic;
 
     color: #484C5A;
+}
+
+strong {
+    font-weight: 900;
 }
 
 a {
@@ -185,4 +189,17 @@ h2:nth-child(3){
 }
 h2:nth-child(4){
     color: #88b90f;
+}
+
+.threefour {
+    translate: 120px, 50%;
+    rotate: 32deg;
+    width: 70%;
+    padding: 10px;
+}
+
+.threefive {
+    filter: blur(30%);
+    filter: hue-rotate(70deg);
+    filter: invert(100%);
 }
