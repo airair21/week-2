@@ -175,19 +175,19 @@ ul:last-child {
     background-color: crimson;
 } 
 
-h2 {
+.ebay {
     font-size: 40px;
 }
-h2:nth-child(1){
+.ebay:nth-child(1){
     color: #e52e35;
 }
-h2:nth-child(2){
+.ebay:nth-child(2){
     color: #0064d3;
 }
-h2:nth-child(3){
+.ebay:nth-child(3){
     color: #f5b000;
 }
-h2:nth-child(4){
+.ebay:nth-child(4){
     color: #88b90f;
 }
 
@@ -202,4 +202,8 @@ h2:nth-child(4){
     filter: blur(30%);
     filter: hue-rotate(70deg);
     filter: invert(100%);
+}
+
+.one .two {
+    color: crimson;
 }
