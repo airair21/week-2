@@ -1,0 +1,188 @@
+body {
+    font-family: "cartograph-cf", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+    width: 37%;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: black;
+}
+
+h3 {
+    font-family: "cartograph-cf", monospace;
+    font-weight: 700;
+    font-style: italic;
+
+    color: #484C5A;
+}
+
+a {
+    color: gold;
+    transition: 2s;
+}
+
+.my-button {
+    background-color: crimson;
+}
+
+blockquote {
+    font-size: 50pt;
+    border-left-width: 3px;
+    padding-left: 3px;
+
+    
+    width: 9em;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.twenty {
+    color: aquamarine;
+}
+
+.twentyone {
+    color: #00FFFF;
+}
+
+.twentytwo {
+    color: rgb(159, 152, 227);
+}
+
+.twentythree {
+    color: hsl(300, 43%, 72%);
+}
+
+
+.invisible-ink {
+    opacity: 0%;
+}
+.invisible-ink:hover {
+    opacity: 100%;
+} 
+/*
+span {
+    opacity: 0%;
+}
+span:hover{
+    opacity: 100%;
+} */
+
+.red {
+    color: red;
+}
+.yellow {
+    color: yellow;
+}
+.bleu {
+    color: blue;
+}
+
+a:hover {
+    font-style: italic;
+    font-size: 25pt;
+    background-color: rgb(159, 152, 227);
+}
+
+a:focus {
+    color: gold;
+}
+
+.black {
+    background-color: black;
+}
+
+.child{}
+ul:first-child {
+    border: 2px solid rgb(159, 152, 227);
+}
+ul:last-child {
+    border: 2px solid hsl(300, 43%, 72%);
+}
+
+
+.box {
+    width: 69px;
+    height: 69px;
+    background-image: url(elmoflame.gif);
+}
+
+.box2 {
+    width: 69px;
+    height: 69px;
+    background-image: url(elmoflame.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    width: 69px;
+    height: 69px;
+    margin: 69px;
+    
+    background-color: #484C5A;
+    box-shadow: 60px 10px 5px 0px crimson;
+}
+.box4 {
+    width: 69px;
+    height: 69px;
+    margin: 69px;
+    
+    background-color: #484C5A;
+    box-shadow: 60px -31px 88px 16px rgba(255,0,255,0.7);
+}
+
+.box5 {
+    width: 69px;
+    height: 69px;
+    margin: 69px;
+
+
+    background-color: rgb(200, 200, 200);
+    box-shadow:
+        5.9px 5px 4px rgba(0, 0, 0, 0.047),
+        13.5px 11.5px 7.5px rgba(0, 0, 0, 0.064),
+        24.8px 21px 11.4px rgba(0, 0, 0, 0.083),
+        43.1px 36.7px 17.5px rgba(0, 0, 0, 0.111),
+        80px 68px 35px rgba(0, 0, 0, 0.15)
+    ;
+}
+/*
+.bkgnd {
+    background-color: #484C5A;
+} */
+.white {
+    width: 200;
+    height: 200;
+    background-color: rgb(178, 178, 178);
+    padding-top: 5%;
+}
+
+.invisible-ink2 {
+    opacity: 0%;
+    color: black;
+    transition: 500ms;
+}
+.invisible-ink2:hover {
+    opacity: 100%;
+    background-color: crimson;
+} 
+
+h2 {
+    font-size: 40px;
+}
+h2:nth-child(1){
+    color: #e52e35;
+}
+h2:nth-child(2){
+    color: #0064d3;
+}
+h2:nth-child(3){
+    color: #f5b000;
+}
+h2:nth-child(4){
+    color: #88b90f;
+}
