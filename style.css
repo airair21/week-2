@@ -210,3 +210,9 @@ ul:last-child {
 .three {
     color: #484C5A;
 }
+
+/*
+* {
+    border: 1px solid crimson;
+}
+applies this effect to every element in the code */
